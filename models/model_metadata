@@ -1,0 +1,114 @@
+{
+  "engineered_cols": [
+    "HR_mean",
+    "HR_min",
+    "HR_max",
+    "HR_std",
+    "O2Sat_mean",
+    "O2Sat_min",
+    "O2Sat_max",
+    "O2Sat_std",
+    "Temp_mean",
+    "Temp_min",
+    "Temp_max",
+    "Temp_std",
+    "SBP_mean",
+    "SBP_min",
+    "SBP_max",
+    "SBP_std",
+    "MAP_mean",
+    "MAP_min",
+    "MAP_max",
+    "MAP_std",
+    "Resp_mean",
+    "Resp_min",
+    "Resp_max",
+    "Resp_std",
+    "WBC_mean",
+    "WBC_min",
+    "WBC_max",
+    "WBC_std",
+    "Lactate_mean",
+    "Lactate_min",
+    "Lactate_max",
+    "Lactate_std",
+    "Glucose_mean",
+    "Glucose_min",
+    "Glucose_max",
+    "Glucose_std",
+    "Creatinine_mean",
+    "Creatinine_min",
+    "Creatinine_max",
+    "Creatinine_std",
+    "Platelets_mean",
+    "Platelets_min",
+    "Platelets_max",
+    "Platelets_std",
+    "BUN_mean",
+    "BUN_min",
+    "BUN_max",
+    "BUN_std",
+    "Age_first",
+    "Gender_first",
+    "Shock_Index_mean",
+    "Shock_Index_max",
+    "Shock_Index_last",
+    "Lab_Orders_This_Hour_sum",
+    "Lab_Orders_This_Hour_mean",
+    "Lab_Orders_This_Hour_max",
+    "SIRS_Score_mean",
+    "SIRS_Score_max",
+    "SIRS_Score_last",
+    "qSOFA_Score_mean",
+    "qSOFA_Score_max",
+    "qSOFA_Score_last",
+    "HR_span",
+    "MAP_span",
+    "Temp_span",
+    "BUN_Creatinine_Ratio"
+  ],
+  "opt_threshold": 0.2339,
+  "baseline_prevalence": 0.0792363748332136,
+  "valid_ranges": {
+    "HR": [
+      20,
+      250
+    ],
+    "O2Sat": [
+      50,
+      100
+    ],
+    "Temp": [
+      25,
+      45
+    ],
+    "SBP": [
+      40,
+      300
+    ],
+    "MAP": [
+      20,
+      200
+    ],
+    "Resp": [
+      3,
+      80
+    ]
+  },
+  "vitals": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "MAP",
+    "Resp"
+  ],
+  "labs": [
+    "WBC",
+    "Lactate",
+    "Glucose",
+    "Creatinine",
+    "Platelets",
+    "BUN"
+  ]
+}
