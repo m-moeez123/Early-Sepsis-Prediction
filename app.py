@@ -73,11 +73,11 @@ PRESETS = {
         hr_span=1.5, map_span=1.5, temp_span=0.08,
         lab_orders_sum=0.12, lab_orders_mean=0.12
     ),
-    # Calibrated: model scores ~76%  → HIGH (SIRS=3, early sepsis criteria)
+    
     "🟠 Case 2 – Early Warning": dict(
-        hr=96, sbp=108, map_val=73, temp=38.2, resp=20, o2=95,
+        hr=80, sbp=104, map_val=75, temp=38.10, resp=19, o2=95,
         wbc=13.5, lac=1.9, glu=138, cre=1.3, plt=185, bun=24,
-        age=65, gender=1,
+        age=58, gender=1,
         hr_span=10.0, map_span=8.0, temp_span=0.4,
         lab_orders_sum=0.35, lab_orders_mean=0.35
     ),
