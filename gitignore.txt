@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (do NOT push raw patient data)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Conda / pip
+*.egg
+dist/
+build/
+
+# Test / debug scripts
+test_presets.py
+sweep_case1.py
+analyze_presets.py
+save_models.py
